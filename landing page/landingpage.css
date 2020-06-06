@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /*  */
+}
+
+#header {
+  background-color: #171a21;
+  height: 80px;
+  /* margin: auto; */
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#header-img {
+  max-width: 100px;
+  /* position: relative;
+top: 20px;
+left:100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.container-logo, .nav-links {
+  display: flex;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+nav {
+  flex: 2;
+}
+
+.nav-links {
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #b8b6b4;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  /* max-width: 1000px; */
+  margin: 0px auto;
+  height: 200px;
+}
+
+.main-container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  color: black;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+  border-bottom: solid 1px #d1d5db; 
+}
+
+#game-img {
+  width: 900px;
+  height: auto;
+  margin-top: 20px;
+  background-size: 900px auto;
+  background-repeat: no-repeat;
+  border-radius: 22px;
+}
+
+#recommended-game {
+  color: black;
+  width: 100%;
+  margin-top: 60px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: solid 1px #d1d5db;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#features {
+  margin-top: 60px;
+  font-weight: 900;
+  width: 100%;
+ 
+    border-bottom: solid 1px #d1d5db;
+    padding-bottom: 12px;
+}
+#gameplay-title{
+  margin:100px 0px 20px 0px;
+  border-bottom: solid 1px #d1d5db;
+}
+#video{
+  border-radius: 22px;
+}
+.section{
+  line-height: 32px;
+    margin: 24px 0;
+  
+    
+}
+ul{
+  list-style-type: square;
+}
+ul li{
+  font-family: 'ars-maquette-web',sans-serif;
+  font-weight: bold;
+  color: #3888c9;
+}
+#howto-img{
+  width: 900px;
+  height: auto;
+  margin: 0px;
+  background-size: 900px auto;
+  /* background-repeat: no-repeat; */
+  border-radius: 22px;
+}
+#submit{
+  border-radius: 8px;
+  height:2rem;
+  width: 5rem;
+  background-color: #2ec866;
+  margin-top: 10px;
+  
+}
+#email{
+  border-radius: 8px;
+  height:2rem;
+  border: 2px solid purple;
+}
+input[type="email"]::placeholder {  
+                  
+  text-align: start;
+  padding-left: 5px; 
+} 
+@media screen and (max-width:500px){
+  body{
+    display: flex;
+  }
+}

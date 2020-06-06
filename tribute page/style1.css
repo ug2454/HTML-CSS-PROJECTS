@@ -1,0 +1,76 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Helvetica Neue", Arial, sans-serif;
+  }
+  #main {
+    background-color: rgb(221, 218, 218);
+  }
+  #title {
+    text-align: center;
+    margin-top: 2rem;
+    color: #333;
+    padding-top: 50px;
+    font-style:italic;
+  }
+  #img-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* margin: 20px;
+    margin-top: 50px; */
+    background-color: white;
+    padding:0 auto 0 auto;
+    margin: 20px;
+    /* margin: 0 auto 0px auto; */
+  }
+  #image {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid black;
+  }
+  #img-caption {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style:italic;
+  }
+  p {
+    text-align: center;
+    color: #333;
+  }
+  h3 {
+    text-align: center;
+    color: #333;
+    padding-bottom: 30px;
+  }
+  #tribute-info h3 {
+    text-align: center;
+    padding-top: 30px;
+  }
+  #tribute-list {
+    max-width: 550px;
+    margin: 0 auto 0px auto;
+    text-align: left;
+    line-height: 1.6;
+    border: 2px groove black;
+  
+  }
+  li {
+    margin: 16px 20px;
+    text-align: justify;
+  }
+  #quote {
+    max-width: 550px;
+    margin: 20px auto 0px auto;
+    text-align: left;
+  }
+  #sign {
+    max-width: 550px;
+    margin: 20px auto 0px auto;
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 900px) {
+    #image {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }

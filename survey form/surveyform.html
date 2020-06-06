@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./surveyformstyle.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div class="stars">
+
+    </div>
+    <div id="main-div">
+        <h1 id="title">Survey Form</h1>
+        
+        <p id="description"> A short survey to know your favourite <strong style="color:red;">Dota2</strong> hero
+            choices.</p>
+            <br><br><br><br>
+        <form id="survey-form">
+            <div class="name-email">
+                <label id="name-label">Enter Name
+                    <input id="name" type="text" maxlength="10" placeholder="First Name" required>
+                </label>
+                <label id="email-label">Enter Email
+                    <input id="email" type="email" placeholder="Email" required>
+                </label>
+            </div>
+            <br>
+            <br>
+            <div class="age-class">
+                <label id="number-label">Enter Age
+                    <input id="number" max="80" min="10" type="number" placeholder="Age" required>
+                </label>
+                <label id="dropdown-label">Favourite Attribute
+                    <select id="dropdown">
+                        <option disabled="" selected="" value="">Select Attribute</option>
+                        <option value="strength">Strength</option>
+                        <option value="agility">Agility</option>
+                        <option value="intelligence">Intelligence</option>
+                    </select>
+                </label>
+            </div>
+            <br>
+            <br>
+            <div class="radio-checkbox">
+                <h3 id="radio-para">Which is your preferred <i>panning technique</i>?</h3>
+                <label class="camera-grip">
+                    <input class="camera" type="radio" name="camera-grip" value="edgepan" checked> Edge Pan
+                </label>
+                <label class="camera-grip">
+                    <input class="camera" type="radio" name="camera-grip" value="wasdpan"> WASD Pan
+                </label>
+                <label class="camera-grip">
+                    <input class="camera" type="radio" name="camera-grip" value="cameragrip"> Camera Grip
+                </label>
+            </div>
+            <div class="checkbox-para">
+                <h3 id="heroes">Select your favourite dota heroes from the choices below:</h3>
+            </div>
+            <div class="checkbox-group">
+                <label id="checkbox">
+                    <input class="checkbox" value="pudge" type="checkbox">Pudge
+                </label>
+                <label id="checkbox">
+                    <input class="checkbox" type="checkbox" value="stormspirit">Storm Spirit
+                </label>
+                <label id="checkbox">
+                    <input class="checkbox" type="checkbox" value="mirana">Mirana
+                </label>
+                <label id="checkbox">
+                    <input class="checkbox" type="checkbox" value="invoker">Invoker
+                </label>
+                <label id="checkbox">
+                    <input class="checkbox" type="checkbox" value="antimage">Anti Mage
+                </label>
+                <label id="checkbox">
+                    <input class="checkbox" type="checkbox" value="techies">Techies <i>(Really?)</i>
+                </label>
+                <label id="checkbox">
+                    <input class="checkbox" type="checkbox" value="phantomassassin">Phantom Assassin
+                </label>
+                <label id="checkbox">
+                    <input class="checkbox" type="checkbox" value="monkeyking">Monkey King
+                </label>
+                <label id="checkbox">
+                    <input class="checkbox" type="checkbox" value="meepo">Meepo
+                </label>
+                <label id="checkbox">
+                    <input class="checkbox" type="checkbox" value="shadowfiend">Shadow Fiend
+                </label>
+            </div>
+            <div class="textarea-field">
+                <h3 id="textfield-para">Additional Hero choices</h3>
+            </div>
+            <div>
+                <textarea id="textarea" name="textarea" placeholder="Enter heroes here."></textarea>
+            </div>
+            <div class="submit-class">
+                <input id="submit" type="submit">
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>

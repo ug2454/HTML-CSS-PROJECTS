@@ -1,0 +1,240 @@
+* {
+    font-family: Georgia, serif;
+}
+
+body {
+    background-color: #333;
+}
+
+#main-div {
+    height: 1050px;
+    background-color: #333;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-family: Lobster;
+    color: seagreen;
+    padding-top: 15px;
+}
+
+#description {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.age-class {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#name-label {
+    margin-left: 150px;
+    font-size: 16px;
+    color: white;
+}
+
+#email-label {
+    font-size: 16px;
+    color: white;
+    margin-left: 200px;
+}
+
+#number-label {
+    margin-left: 150px;
+    font-size: 16px;
+    color: white;
+}
+
+#number {
+    margin-left: 16px;
+    box-shadow: 0 4px 12px 0 silver;
+    border-radius: 10%;
+}
+
+#name {
+    box-shadow: 0 4px 12px 0 silver;
+    border-radius: 10%;
+}
+
+#email {
+    box-shadow: 0 4px 12px 0 silver;
+    border-radius: 10%;
+}
+
+#dropdown-label {
+    font-size: 16px;
+    color: white;
+    margin-left: 300px;
+}
+
+#dropdown {
+    box-shadow: 0 4px 12px 0 silver;
+    border-radius: 10%;
+    margin-left: 15px;
+}
+
+#radio-para {
+    margin-left: 150px;
+    font-size: 16px;
+    color: white;
+}
+
+.camera-grip {
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 17px;
+    color: white;
+    display: flex;
+}
+
+.camera {
+    filter: drop-shadow(2px 2px 3px silver);
+    background-color: #333;
+}
+
+#checkbox {
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 17px;
+    color: white;
+    filter: drop-shadow(3px 4px 5px black);
+}
+
+#heroes {
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 17px;
+    color: white;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea-field {
+    font-size: 17px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#textfield-para {
+    margin-left: 150px;
+}
+
+#textarea {
+    min-height: 120px;
+    margin-left: 150px;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+.submit-class {
+    margin-top: 70px;
+    font-size: 17px;
+    color: white;
+    display: block;
+}
+
+#submit {
+    size: 20px;
+    display: block;
+    margin-left: 150px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background-color: green;
+    border: none;
+    filter: drop-shadow(2px 2px 3px silver);
+    background-color: green;
+}
+
+.stars {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    /* animation: stars 1.2s infinite; */
+    animation-duration: 0.6s ;
+    animation-iteration-count: infinite;
+    animation-name: stars;
+   
+}
+
+
+@keyframes stars
+{
+    from {background-color: black;}
+    to {background-color: white;}
+  }
+@media screen and (max-width: 500px) {
+    .name-email {
+        flex-direction: column;
+    }
+    .name-email #name-label {
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    .name-email #email-label {
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .age-class {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .age-class #number-label {
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .age-class #dropdown-label {
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .radio-checkbox {
+        margin-top: 1px;
+        padding-right: 100px;
+    }
+    .radio-checkbox #radio-para {
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .camera-grip {
+        margin-left: 100px;
+    }
+    .checkbox-para #heroes {
+        margin-left: 100px;
+    }
+    .checkbox-group #checkbox {
+        margin-left: 100px;
+    }
+    .textarea-field #textfield-para {
+        margin-left: 100px;
+    }
+    #textarea {
+        margin-left: 100px;
+    }
+    #submit {
+        margin-left: 130px;
+        margin-bottom: 20px;
+    }
+}

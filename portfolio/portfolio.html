@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://use.fontawesome.com/087e26ad14.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/478aaeda6a.js" crossorigin="anonymous"></script> -->
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <!-- <div class="style fade-in"> -->
+
+    <section>
+        <nav id="navbar">
+            <ul>
+
+                <li>
+                    <a href="#contact-me-section">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#welcome-section">About</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section id="welcome-section">
+        <h1>Hi, I am Uday</h1>
+        <div class="about-me">
+            <p id="about-me-para" style="color: midnightblue;">I am a software engineer with 2 years of experience.<br><i> Welcome to my portfolio.</i></p>
+            <div class="portrait">
+                <img src="uday.jpg">
+            </div>
+        </div>
+
+
+        <!--
+      //TODO  PUT MY IMAGE IN A BIG CIRCLE AND PUT ANIMATION ON CIRCLE BORDER ON HOVER ------DONE
+    -->
+    </section>
+    <section id="projects">
+        <h1 class="projects-section-header">Some of my projects</h1>
+        <div class="projects-grid">
+            <a href="https://documentationpageuday.imfast.io/documentationpage.html" target="_blank">
+                <div class="grid-item">
+                    <h1 class="project-tile">Documentation Page</h1>
+                    <img class="project-image" src="documentationpage.png" alt="project" />
+
+                </div>
+            </a>
+            <a href="https://github.com/ug2454/MyProject" target="_blank">
+                <div class="grid-item">
+                    <h1 class="project-tile">Time Table Project</h1>
+                    <img class="project-image" src="timetableproject.png" alt="project" />
+                </div>
+            </a>
+            <a href="https://productpageuday.imfast.io/landingpage.html" target="_blank">
+                <div class="grid-item">
+                    <h1 class="project-tile">Product Landing Page</h1>
+                    <img class="project-image" src="productlandingpage.png" alt="project" />
+                </div>
+            </a>
+            
+        </div>
+    </section>
+    <!--
+        //TODO FIX THE SKILL SECTION. IT IS UGLY!!!
+    -->
+    <section id="skills">
+        <h1 id="skill-header">My Skills</h1>
+        <div class="skill-grid">
+            <div class="skill-item">
+               <h1>HTML</h1>
+            </div>
+            <div class="skill-item">
+                <h1>CSS</h1>
+            </div>
+            <div class="skill-item">
+                <h1>Java</h1>
+            </div>
+            <div class="skill-item">
+                <h1>Python</h1>
+            </div>
+            <div class="skill-item">
+                <h1>Selenium Web Driver</h1>
+            </div>
+            <div class="skill-item">
+                <h1>BDD Cucumber</h1>
+            </div>
+            <div class="skill-item">
+                <h1>Mysql</h1>
+            </div>
+
+        </div>
+        
+        <a href="https://drive.google.com/file/d/152b2ZaP8UrADbxQ8649kPFMnAPiaxToV/view?usp=sharing" target="_blank" download="Uday_CV.docx">
+            <input id="resume" type="button" value="Download My Resume">
+        </a>
+    </section>
+    <section id="contact-me-section" data-aos="zoom-in">
+        <h1>How Can You Contact Me?</h1>
+        <p>Well, here's how.</p>
+        <ul class="contact-me-list">
+            <li>
+                <a id="profile-link" href="https://twitter.com/TheRealMecazor" target="_blank"><i
+                        class="fa fa-twitter fa-sm" style="color: rgb(113, 204, 235);"></i></a>
+            </li>
+            <li>
+                <a id="profile-link" href="https://github.com/ug2454" target="_blank"><i
+                        class="fa fa-github fa-sm"></i></a>
+            </li>
+            <li>
+                <a id="profile-link" href="https://www.linkedin.com/in/uday11garg/" target="_blank"><i
+                        class="fa fa-linkedin fa-sm" style="color: #0077b5;"></i></a>
+            </li>
+        </ul>
+    </section>
+    <section id="footer-section">
+        <footer>Made by Uday.</footer>
+    </section>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+<!-- </div> -->
+</body>
+
+</html>

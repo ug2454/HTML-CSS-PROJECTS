@@ -1,0 +1,115 @@
+
+*{
+    scroll-behavior: smooth;
+}
+#navbar{
+    position: fixed;
+    min-width: 290px;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid gray;
+    /* background-color: rebeccapurple; */
+}
+header{
+    padding:20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#navbar ul{
+  list-style-type: none;
+   height: 88%;
+   padding:0;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#navbar li{
+    padding: 30px;
+    border-top: 1px solid black;
+    position: relative;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #1ba94c;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    cursor: pointer;
+    
+}
+#main-doc{
+   
+    position: absolute;
+    margin-left: 300px;
+    padding:20px;
+    margin-bottom: 110px;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.5;
+}
+.main-section header{
+    text-align: start;
+    font-weight: lighter;
+    
+}
+.main-section p{
+    padding:0px 40px;
+    margin-top: 0px;
+    text-align: justify;
+    color: #4d5156;;
+}
+.main-section ul{
+    padding:10px 100px;
+    text-align: justify;
+    color: #4d5156;
+}
+
+.main-section code{
+   display: block;
+   max-width: 600px;
+   text-align: left;
+   position: relative;
+   word-break: normal;
+   word-wrap: normal;
+   line-height: 2;
+   background-color: #f7f7f7;
+   margin:20px 50px;
+   padding:15px;
+   border-radius: 10px;
+}
+#gototop{
+    margin-top: 100px;
+    padding:20px;
+}
+
+@media screen and (max-width:600px){
+    body{
+        display: flex;
+    }
+    .main-section ul{
+        padding:10px 40px;
+        text-align: justify;
+        color: #4d5156;
+    }
+    #navbar ul{
+        list-style-type: none;
+         height: 500%;
+         padding:0;
+         overflow-x: hidden;
+         overflow-y: auto;
+      }
+      #navbar{
+        position: fixed;
+        min-width: 290px;
+        left: 0px;
+        top: 0px;
+        width: 300px;
+        height: 100%;
+        border-right: solid gray;
+        /* background-color: rebeccapurple; */
+    }
+}
+

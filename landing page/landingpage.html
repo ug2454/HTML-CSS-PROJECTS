@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./landingpage.css">
+  <title>Games</title>
+</head>
+
+<body>
+ 
+  <div class="main-div">
+    <header id="header" style="background-color:#171a21;">
+      <div class="container-logo">
+        <img id="header-img"
+          src="https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016"
+          alt="steamlogo">
+      </div>
+      <nav id="nav-bar">
+        <ul class="nav-links">
+          <li><a href="#gameplay-title" class="nav-link">GamePlay</a></li>
+          <li><a href="#howto" class="nav-link">Features</a></li>
+          <li><a href="#form-section" class="nav-link">Form</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- <div class="main-container">
+    <h1><i>Welcome to Steam Games</i></h1>
+
+    <div class="recommended-games-title">
+      <h3>Recommended Games</h3>
+    </div>
+    <div class="recommended-games">
+      
+    </div>
+  </div> -->
+
+    <h1 id="title"><i>Welcome to Steam Games</i></h1>
+    <div style="display: flex;flex-direction: column;">
+      <h2 id="recommended-game"><i>Recommended Game</i></h2>
+
+      <img id="game-img"
+        src="https://images.pushsquare.com/92d4256d948f3/the-witcher-3-wild-hunt-ps4-playstation-4-enemy-creatures-guide.original.jpg"
+        alt="witcher3 game">
+      <!-- <hr style="margin-top: 80px;"> -->
+      <h2 id="gameplay-title"><i>GamePlay Video</i></h2>
+      <iframe id="video" style="display: flex;justify-content: center;
+      align-items: center;flex-direction: row;" width="900" height="500"
+        src="https://www.youtube.com/embed/xx8kQ4s5hCY" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <!-- <hr style="margin-top: 80px;"> -->
+      <section class="section" id="howto">
+        <h2 id="features">The Witcher 3: Wild Hunt How-To Guides</h2>
+      </section>
+      <section class="section">
+        <img id="howto-img" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-witcher-3/2/23/Engrifffinal2.PNG?width=960" alt="witcher3">
+      </section>
+      <section class="section">
+        <ul class="how-to-list">
+          <li>How to Upgrade Your Character Abilities in The Witcher 3: Wild Hunt</li>
+          <li>How to Upgrade Gear in The Witcher 3: Wild Hunt</li>
+          <li>How to Craft Armor in The Witcher 3: Wild Hunt</li>
+          <li>How to Craft Weapon in The Witcher 3: Wild Hunt</li>
+          <li>How Alchemy Works in The Witcher 3: Wild Hunt</li>
+        </ul>
+      </section>
+      <section id="form-section">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" placeholder="EmailId" name="email" required>
+            <br>
+            <input id="submit" type="submit">
+        </form>
+      </section>
+    </div>
+</body>
+
+</html>
